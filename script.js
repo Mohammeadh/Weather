@@ -10,11 +10,12 @@ async function weather(){
     </div>
         <h2 class="head">Invalid Input</h2><br><br><br>
         <h2 class="head" id="h">Go to Home Page</h2><br><br><br>`
-    }
-    let h=document.getElementById("h");
+        let h=document.getElementById("h");
     h.addEventListener("click",()=>{
         location.reload()
     })
+    }
+    
     let data= await response.json();
     console.log(data)
     let img=data.weather[0].main;
