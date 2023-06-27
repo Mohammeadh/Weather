@@ -34,6 +34,9 @@ async function weather(){
     else if(img=="Mist"){
         path="./img/images/mist.png";
     }
+     else if(img=="Clear"){
+        path="./img/images/clear.png";
+    }
 
 
 
