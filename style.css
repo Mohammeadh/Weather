@@ -1,0 +1,99 @@
+*{
+    padding: opx;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.container{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    left:9%; 
+    background:linear-gradient(135deg,#00feba,#5b548a); 
+    color:white;
+    width:80%;
+    border-radius: 2%;
+    top:2%;
+}
+.input{
+   padding-top: 5%;
+   padding-bottom:5%;
+   width:70%;
+   display: flex;
+  
+}
+.head h2{
+    font-size:x-large;
+    margin: 15px;
+
+}
+.head img{
+    background: none;
+    height: 200px;
+    width:200px;
+    border-radius: 50%;
+    padding:7px;
+}
+.head-1{
+    font-size: x-large;
+    display: flex;
+    flex-wrap: wrap;
+}
+.input input{
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+    border-bottom:2px solid black ;
+    margin-right:15px;
+    color:black;
+    width:80%;
+}
+.input button{
+    padding:10px;
+    border: none;
+    background-color:transparent;
+    color:black;
+    background-color: white;
+    border-radius: 40%;
+    cursor: pointer;
+}
+.input button:hover{
+    background-color: transparent;
+}
+.foot{
+    display: flex;
+    gap:30%;
+    margin-top:20px;
+    font-size: medium;
+    padding:50px;
+    justify-content:space-between;
+}
+.f1{
+    margin-right: 200px;
+    margin-top: 10px;
+}
+.fi{
+    margin:20px;
+    font-size: larger;
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 650px) {
+.foot{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width:250%;
+}
+.f1{
+    margin-bottom:90px;
+    margin-top:auto;
+    margin-right: auto;
+}
+
+
+}
